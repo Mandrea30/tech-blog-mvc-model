@@ -1,0 +1,30 @@
+{
+  "name": "tech-blog-mvc-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mandrea30/tech-blog-mvc-model.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mandrea30/tech-blog-mvc-model/issues"
+  },
+  "homepage": "https://github.com/Mandrea30/tech-blog-mvc-model#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "express-session-sequelize": "^2.3.0",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.19.2"
+  }
+}
